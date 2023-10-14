@@ -1,44 +1,61 @@
-# [your app name here]
+# Name of App: ToDue
 
 CodePath WEB103 Final Project
 
-Designed and developed by: [your names here]
+Designed and developed by: Dang Nguyen Nguyen & Eric Liu
 
 🔗 Link to deployed app:
 
 ## About
 
-### Description and Purpose
+An Todo List/Calendar Web app that allows user to share todo goals with their friends.
+Who complete more goals in the week will receive more scores -> create competition. 
 
-[text goes here]
+### Description and Purpose
+- User can log in and view their progress + score
+- User can CRUD goals (One-to-Many)
+- User can share a goal with many friends (Many-to-many ?)
+- Weekly leaderboard
+- passportJS for authentication
+
+
+
+
+### Custom features
+- Sort by names(alpha order), sort by currently added friends
+- Create a new goal (charka modal)
+
+
+Purpose:
+- Help people achieve their goals while having fun with friends.
 
 ### Inspiration
 
-[text goes here]
+NotionAI + Apple Watch Competition
 
 ## Tech Stack
 
-Frontend:
+Frontend: React
 
-Backend:
+Backend: Node.js. Express.js. PostgreSQL
 
 ## Features
 
-### [Name of Feature 1]
+### ToDuel ROOM with friend
 
-[short description goes here]
-
-[gif goes here]
-
-### [Name of Feature 2]
-
-[short description goes here]
+Invite Friend(s) to a private room to compete on same goals
 
 [gif goes here]
 
-### [Name of Feature 3]
+### Daily, weekly, monthly competition
 
-[short description goes here]
+You can choose between daily, weekly, monthly competition with your friend and whoever complete more goals will receive more scores.
+
+[gif goes here]
+
+### Global Leaderboard
+
+A global leaderboard showing who has completed the most goals out of everyone on the entire app
 
 [gif goes here]
 
@@ -46,4 +63,4 @@ Backend:
 
 ## Installation Instructions
 
-[instructions go here]
+Login on web
